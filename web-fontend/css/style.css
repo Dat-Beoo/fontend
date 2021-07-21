@@ -1,0 +1,92 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header-right{
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+	text-align: right;
+	margin-top: 40px;
+}
+.mini-cart{
+	margin-top: 10px;
+
+	
+	}
+	.mini-cart a{
+		color: #00bba6;
+	}
+	.mini-cart .dropdown-menu{
+		width: 350px;
+	}
+	.my-menu{
+		background: #00bba6;
+		border: none;
+	}
+	.my-menu .nav li a{
+		color: #fff;
+		text-transform: uppercase;
+	}
+	#product-top{
+		padding: 15px 0px;
+	}
+	.form-group-gt{
+		color: black;
+	}
+	.form-group-lh{
+		color: black;
+	}
+	.tt{
+		color: black;
+	}
+	.card-img1{
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		margin: 15px 10px;
+	}
+	.card-img{
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		margin: 15px 10px;
+	}
+	.card-img2{
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		margin: 15px 10px;
+	}
+	.card-img a{
+		margin-top: 30px;
+		font-size: 20px;
+
+	}
+	.card-img1 a{
+		margin-top: 30px;
+		font-size: 20px;
+
+	}
+	.card-img2 a{
+		margin-top: 30px;
+		font-size: 20px;
+
+	}
+	.header-right1{
+		margin-top: 10px;
+		display: grid;
+	grid-template-columns: 4fr 1fr;
+	text-align: right;
+	}
+	.ct-sp img{
+		padding: 20px 15px;
+	}
+	.error input{
+		background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 100% 20%
+	}
+	@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%
+    }
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>web dồng hồ</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="../bs3/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../bs3/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+
+<style type="text/css">
+#carousel-id img{
+	width: 100%;
+}
+#dh-logo{
+	background: white;
+	width: 250px;
+	height: 50px
+
+}
+	
+</style>
+	
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 logo">
+					<a href="index.html">
+						<img src="../img/logo3.png" alt="" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-md-9 header-right">
+					
+					<div class="form-left">
+						<form action="" method="POST" class="form-inline" role="form">
+					
+						<div class="form-group">
+							<label class="sr-only" for="">label</label>
+							<input type="email" class="form-control" id="" placeholder="seach">
+						</div>
+					
+						
+					
+						<button type="submit" class="btn btn-default">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+					</div>
+					
+					<a href="gio-hang.html">
+						<span class="glyphicon glyphicon-shopping-cart"></span> Giỏ Hàng
+						<b class="caret"></b></a>
+					
+					
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+	</header><!-- /header -->
+	<nav class="navbar navbar-inverse my-menu">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+			</div> 	
+			
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav" style="font-size: 17px;">
+					<li class="">
+					<a href="index.html">Trang Chủ</a>
+				</li>
+				<li>
+					<a href="gioi-thieu.html">Giới Thiệu</a>
+				</li>
+				<li>
+					<a href="tin-tuc.html">Tin Tức</a>
+				</li>
+				<li>
+					<a href="san-pham.html">Sản Phẩm</a>
+				</li>
+				<li>
+					<a href="chi-tiet-sp.html">Chi tiết sản phẩm</a>
+				</li>
+				<li>
+					<a href="lien-he.html">Liên Hệ</a>
+				</li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li id="dnhap"><a href="#modal-login" data-toggle="modal">Đăng Nhập</a>					
+						</li>
+					<li  id="dnhap1">
+							<a href="#modal-id" data-toggle="modal">Đăng Ký</a>
+						</li>
+				</ul>
+				
+			</div>
+	
+
+		
+	</div>
+</div>
+
+<div class="modal fade" id="modal-login">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				
+			</div>
+			<div class="modal-body">
+				<form action="" method="POST" role="form">
+					
+				
+					<div class="form-group">
+						<label for="">Tên Đăng Nhập</label>
+						<input type="text" class="form-control" id="" placeholder="Input field">
+					</div>
+					<div class="form-group">
+						<label for="">Mật Khẩu</label>
+						<input type="text" class="form-control" id="" placeholder="Input field">
+					</div>					
+					<button type="submit" class="btn-block btn btn-success">Login</button>
+					<a type="submit" class="btn-block btn btn-primary">Facebook</a>
+					<a type="submit" class="btn-block btn btn-danger">Google</a>
+				</form>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="modal-id">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h5 style="color: red;"><strong>Chú ý:</strong>Vui lòng điền đầy đủ thông tin</h5>
+			</div>	
+			<div class="modal-body">
+				<form action="" method="POST" role="form">
+					<div class="form-group">
+						<label for="">Tên Đăng Nhập</label>
+						<input type="text" class="form-control" id="" placeholder="Input field">
+					</div>
+					<div class="form-group">
+						<label for="">Email</label>
+						<input type="text" class="form-control" id="" placeholder="Input field">
+					</div>
+					<div class="form-group">
+						<label for="">Số điện thoại</label>
+						<input type="text" class="form-control" id="" placeholder="Input field">
+					</div>		
+					<div class="form-group">
+						<label for="">Mật Khẩu</label>
+						<input type="text" class="form-control" id="" placeholder="Input field">
+					</div>	
+					<div class="form-group">
+						<label for="">Nhập Lại Mật Khẩu</label>
+						<input type="text" class="form-control" id="" placeholder="Input field">
+					</div>					
+					<button type="submit" class="btn-block btn btn-primary">Đăng Ký</button>
+					
+				</form>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+	
+
+	</nav>
+	<div id="carousel-id" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="2" class=""></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item">
+				<img src="../img/dh3.png" alt="">
+				
+			</div>
+			<div class="item">
+				<img src="../img/dh2 (2).png" alt="">
+				
+			</div>
+			<div class="item active">
+				<img src="../img/dh1 (3).png" alt="">
+				
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Danh Mục Sản Phẩm</h3>
+					</div>
+					
+					<ul class="list-group">
+						<li class="list-group-item">Đồng Hồ Nam</li>
+						<li class="list-group-item">Đồng Hồ Nữ</li>
+						<li class="list-group-item">Đồng Hồ Đôi</li>
+					</ul>
+				</div>
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Tin Tức</h3>
+					</div>
+					<div class="panel-body">
+						<div class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="../img/dh4.jpg" alt="Image" width="70">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Đồng Hồ G-Shock Cao Cấp</h4>
+								<p>Gía:4.500.000VNĐ</p>
+							</div>
+						</div>
+						<div class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="../img/dh5.jpg" alt="Image" width="70">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Đồng Hồ CASIO-TACHYMETER Cao Cấp</h4>
+								<p>Gía:9.500.000VNĐ</p>
+							</div>
+						</div>
+						<div class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="../img/dh6.jpg" alt="Image" width="70">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Đồng Hồ  OMERDA Cao Cấp</h4>
+								<p>Gía:7.500.000VNĐ</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Video</h3>
+					</div>
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mz7CrDlBL7w"></iframe>
+</div>
+</div>
+			</div>
+			<div class="col-md-9">
+				<div class="row">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h1>Giỏ hàng</h1>
+					<div class="panel panel-default">
+						<!-- Default panel contents -->
+						<div class="panel-heading">Giỏ hàng của bạn</div>
+						<div class="panel-body">
+							<p></p>
+						</div>
+					
+						<!-- Table -->
+						<table class="table">
+							<thead>
+								<tr>
+									<th>STT</th>
+									<th>Ảnh</th>
+									<th>Tên sản phẩm</th>
+									<th>Giá</th>
+									<th>Số lượng</th>
+									<th>Thành tiền</th>
+									<th></th>
+
+								</tr>
+								
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>
+										<img src="../img/dh12.jpg" alt="" width="70">
+									</td>
+									<td>đồng hồ nam </td>
+									<td>1.500.000</td>
+									<td>3</td>
+									<td>4.500.000</td>
+									<td></td>
+									<td>
+									<a href="" class="btn btn-xs btn-danger">xóa</a>
+								</td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<div class="jumbotron">
+							<div class="container">
+								<h1>Tổng tiền:4.500.000</h1>
+								<p></p>
+								<p>
+									<a class="btn btn-primary" href="index.html">Tiếp tục mua hàng</a>
+									<a class="btn btn-danger">xóa hết</a>
+									<a class="btn btn-success" href="dat-hang.html">Đặt hàng</a>
+								</p>
+							</div>
+						</div>
+					</div>
+</div>
+</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer bg-danger">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="../img/logo3.png" alt="" width="190">
+					<h3>Công ty TNHH A&M | 5S Việt Nam</h3>
+					<p>Website được phát triển & vận hành bởi hệ thống: ĐỒNG HỒ CHÍNH HÃNG
+Địa chỉ: Tầng 11, Tòa nhà 169, Bùi Thị Xuân, Quận Hai Bà Trưng, HN
+Mã số doanh nghiệp: 0101389015
+Cấp ngày: 27/12/2014 | Nơi cấp: Hà Nội
+Email: hotro@donghochinhhang.com
+Tel: (024) 3 516 0868</p>
+				</div>
+				<div class="col-md-3">
+					<h3><span class="glyphicon glyphicon-pause"></span>Hệ thống Showroom SHOPWATCH</h3>
+					
+<h5>
+<span class="glyphicon glyphicon-map-marker"></span>Tầng 1, Tháp B, TTTM Vincom Center, 191 Bà Triệu, Q. Hai Bà Trưng, HN</h5>
+<h5>
+<span class="glyphicon glyphicon-map-marker"></span>Tầng 3, TTTM Tràng Tiền Plaza, 24 Hai Bà Trưng, Q. Hoàn Kiếm, HN</h5>
+<h5>
+<span class="glyphicon glyphicon-map-marker"></span>Tầng 1, TTTM Aeon Mall Long Biên, 27 Cổ Linh, Q.Long Biên, HN</h5>
+<h5>
+<span class="glyphicon glyphicon-map-marker"></span>Tầng 1, TTTM Vincom Plaza, 01 Lê Thánh Tông, Ngô Quyền, Tp. Hải Phòng</h5>
+<h5>
+<span class="glyphicon glyphicon-map-marker"></span>Tầng 1, TTTM Vincom Imperia, phường Thượng Lý, quận Hồng Bàng, Hải Phòng</h5>
+</div>
+<div class="col-md-3">
+<h3>THÔNG TIN HỖ TRỢ</h3>
+
+<h5>Chính sách & Quy định</h5>
+<h5>Chính sách bán hàng</h5>
+<h5>Chính sách mua hàng</h5>
+<h5>Chính sách giao hàng</h5>
+<h5>Giao hàng và Thanh toán</h5>
+<h5>Chính sách bảo hành</h5>
+<h5>Chính sách đổi trả</h5>
+<h5>Giải quyết khiếu nại</h5>
+</div>
+<div class="col-md-3">
+	<h3>KHÁCH HÀNG</h3>
+	<h5>Chính sách bảo mật</h5>
+	<h5>Hướng dẫn mua hàng</h5>
+	<h5>Khách hàng thân thiết</h5>
+	<h5>Tri ân khách hàng</h5>
+	<h5>Hệ thống showroom</h5>
+	<h5>Hệ thống khách hàng</h5>
+	<h5>Review sản phẩm</h5>
+</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+<!-- Latest compiled and minified CSS & JS -->
+<!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+<script type="text/javascript" src="../js/jquery.js"></script>
+
+<script type="text/javascript" src="../OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../bs3/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
